@@ -19,7 +19,11 @@ deploy:
   provider: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: b06fa228-3f67-4172-890b-7fbc3c07f803
+  api_key:
+    secure: "rhLcTwe91TLbtfLR+fcait6ld6YSDpp4IUnX28V8bsYWqFe/9fAeU2lAaC8ojCIBc1pGSAPiNgRefnqo1/v+3UTyHCxgbBScSEI45od90JxnKWEwHfJgCE88J/b4Y2nKp5LelER5FqCfLWVSLIU886vBoF90TbgdOgyDwJ
+MDwY3Awu4k12kXIEiy75txTOmknIvPfsG/KN4LU7KBvsvFeER6rgsXsDt22h8Mz5JxKrJd2w9XM0kFxnYlUrrjfp5ls/AYsqDS2OjJhdABrwp4bbtJcfDIb4N/DJ1X+VGmvkq2Nx89HNK+X0WgaEhlK/siHv70hBO7stF551j0Em3YQWZ
+6c3YfK82pZLbuy9YlkVaXtWHhEFoWOfBJhzEuC5FZSHjFE3Y5WS8ih6UnVGhSbRBIe3EJVXmzZdufwndn9ZvYrVjoVohTf6Ggh+9qjuUWOUWIg9nrmfYURTA2q3PzeJkKgr5wWZwljJwwN3KgDHOaQiT+GWlDBTE5flRFh+3CrJXI4CSF
+ElJUkrPvuGJtUROKof8BxnhsMpvlOAUB3URAXnj6F1KjEdnBe7aPnyv9oqFoOJ12070L9xycpN6p75DTL5bWKhNdONgfDj9Uh4TrWNpkmdi4WGAtiAlmIxOYC6Cy4OL3ZUDOhFaDZxbdJ2tbbBasD3lwoOjGbXUFWqk="
   app: erickleaopm-platzi-store
   on:
     repo: erickleaopm/platzi-store-backend
