@@ -1,0 +1,25 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    recipients:
+      - erick.leao.perez@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: b06fa228-3f67-4172-890b-7fbc3c07f803
+  app: erickleaopm-platzi-store
+  on:
+    repo: erickleaopm/platzi-store-backend
